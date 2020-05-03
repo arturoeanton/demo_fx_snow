@@ -3,7 +3,7 @@ const m = require('./lib/m.js')
 
 class Foo {
     get bar() {
-        return 1;
+        return 12;
     }
 }
 
