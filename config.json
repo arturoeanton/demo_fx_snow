@@ -1,8 +1,8 @@
 {
     "endpoints":[
         {
-            "script" : "main.js",
-            "path": "/teams/{d1}",
+            "script" : "user.js",
+            "path": "/user/{d1}",
             "methods":"GET"
         }
     ]
