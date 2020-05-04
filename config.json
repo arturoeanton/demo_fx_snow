@@ -1,0 +1,9 @@
+{
+    "endpoints":[
+        {
+            "script" : "main.js",
+            "path": "/teams/{d1}",
+            "methods":"GET"
+        }
+    ]
+}
