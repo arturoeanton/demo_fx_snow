@@ -1,5 +1,6 @@
 const lib = require('./lib.js')
 const m = require('./lib/m.js')
+const mm = require('./lib/mm/m.js')
 
 class Foo {
     get bar() {
@@ -38,6 +39,6 @@ let ss = lib.sum(1000,20);
 let payload = [...v1,"Largo22222221"];
 
 let demo = () => {
-    return  {a:1, b:2, v:vars};
+    return  {mm:mm.testA(), m:m.testA(), v:vars};
 }
 
