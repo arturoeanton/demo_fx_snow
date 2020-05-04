@@ -11,6 +11,12 @@
         "action": "post_user",
         "path": "/user/{d1}",
         "methods":["POST"]
+        },
+        {
+            "script" : "demo.js",
+            "action": "demo",
+            "path": "/demo/{d1}",
+            "methods":["GET","POST"]
         }
     ]
 }
