@@ -1,7 +1,7 @@
 let http_status = 200
 let get_user = () => {
-    http_status=400
-    return  {msg: "user get",  vars};
+    // http_status=400
+    return  {msg: "user get",  vars, paso:"aaa"};
 }
 
 let post_user = () => {
