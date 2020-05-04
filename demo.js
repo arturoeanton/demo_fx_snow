@@ -15,7 +15,7 @@ class Bar extends Foo {
 }
 
 let a = () => {
-    return v;
+    return vars;
 };
 let d =678;
 
@@ -24,7 +24,7 @@ let bar = new Bar();
 let o = {param0:"aa",d:"a"};
 o.aa=1
 let f1 = `->${d}`;
-let f2 = v;
+let f2 = vars;
 const string1 = "fooabar";
 const match = string1.match(/foo(.)bar/u);
 let v1 = [1,1000, bar.bar()];
