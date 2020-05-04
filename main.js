@@ -37,3 +37,7 @@ console.log("Started");
 let ss = lib.sum(1000,20);
 let payload = [...v1,"Largo22222221"];
 
+let demo = () => {
+    return  {a:1, b:2, v:vars};
+}
+

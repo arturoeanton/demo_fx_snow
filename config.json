@@ -2,8 +2,15 @@
     "endpoints":[
         {
             "script" : "user.js",
+            "action": "get_user",
             "path": "/user/{d1}",
-            "methods":["GET","POST"]
-       }
+            "methods":["GET"]
+       },
+       {
+        "script" : "user.js",
+        "action": "post_user",
+        "path": "/user/{d1}",
+        "methods":["POST"]
+        }
     ]
 }
