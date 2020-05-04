@@ -8,3 +8,7 @@ let post_user = () => {
     return  {msg: "user post"};
 }
 
+let html_user = () => {
+    return  "<h5>User HTML</h5>";
+}
+

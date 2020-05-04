@@ -13,6 +13,12 @@
         "methods":["POST"]
         },
         {
+            "script" : "user.js",
+            "action": "html_user",
+            "path": "/ui/user",
+            "methods":["GET"]
+            },
+        {
             "script" : "demo.js",
             "action": "demo",
             "path": "/demo/{d1}",
