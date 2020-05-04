@@ -3,7 +3,8 @@
         {
             "script" : "user.js",
             "path": "/user/{d1}",
-            "methods":"GET"
+            "methods":["GET","POST"],
+            "queries":[]
         }
     ]
 }
