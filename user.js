@@ -1,1 +1,1 @@
-payload = {a:1, b:2}
+payload = {a:1, b:2, vars}
