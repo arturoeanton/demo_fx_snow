@@ -27,7 +27,7 @@
         {
             "script" : "demo.ts",
             "action": "greeter",
-            "path": "/demo",
+            "path": "/demots",
             "methods":["GET"]
         }
     ]
