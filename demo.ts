@@ -1,4 +1,4 @@
-interface Person {
+class Person {
     firstName: string;
     lastName: string;
 }
