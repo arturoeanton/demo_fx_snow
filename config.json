@@ -23,6 +23,12 @@
             "action": "demo",
             "path": "/demo/{d1}",
             "methods":["GET","POST"]
+        },
+        {
+            "script" : "demo.ts",
+            "action": "greeter",
+            "path": "/demo",
+            "methods":["GET"]
         }
     ]
 }
