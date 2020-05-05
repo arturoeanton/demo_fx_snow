@@ -19,13 +19,13 @@
             "methods":["GET"]
             },
         {
-            "script" : "demo.js",
+            "script" : "demojs.js",
             "action": "demo",
-            "path": "/demo/{d1}",
+            "path": "/demojs/{d1}",
             "methods":["GET","POST"]
         },
         {
-            "script" : "demo.ts",
+            "script" : "demots.ts",
             "action": "greeter",
             "path": "/demots",
             "methods":["GET"]
