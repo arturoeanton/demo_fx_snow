@@ -1,11 +1,15 @@
-class Person {
-    firstName: string;
-    lastName: string;
+class Greeter {
+    greeting: string;
+    constructor(message: string) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
 }
 
-function greeter(): Person {
-    let person: Person
-    person.firstName = "Arturo"
-    person.lastName = "Anton"
-    return person
+function greeter(): Greeter {
+    let greeter = new Greeter("world");
+
+    return greeter
 }
