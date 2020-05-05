@@ -10,6 +10,7 @@ let post_user = () => {
 
 let html_user = () => {
     content_type = "text/html; charset=UTF-8"
-    return  "<h5>User HTML</h5>";
+    let data = 3456
+    return  `<h5>User HTML ${data}</h5>`;
 }
 
