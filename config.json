@@ -3,7 +3,7 @@
         {
             "script" : "user.js",
             "action": "get_user",
-            "path": "/user/{d1}",
+            "path": "/api/user/{d1}",
             "methods":["GET"]
        },
        {
